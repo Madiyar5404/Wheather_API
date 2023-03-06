@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:textColor="@color/white"
+        android:text="@string/logo"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="50sp"/>
+
+
+    <EditText
+        android:id="@+id/user_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="100sp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:hint="@string/hint_user_field"
+        android:inputType="number"
+        android:textColor="#fff"
+        android:textColorHint="#B6AEAE" />
+
+    <EditText
+        android:id="@+id/user_field2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_field"
+        android:layout_marginHorizontal="50sp"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/colorAccent"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/hint_user_field2"
+        android:textColor="#fff"
+        android:textColorHint="#B6AEAE" />
+
+    <Button
+        android:id="@+id/main_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/user_field2"
+        android:layout_marginHorizontal="130sp"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="Узнать погоду" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/result_info"
+        android:textColor="@color/white"
+        android:layout_below="@id/main_btn"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginTop="50sp"/>
+
+</RelativeLayout>

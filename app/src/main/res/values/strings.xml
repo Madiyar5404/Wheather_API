@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Wheather</string>
+    <string name="logo">Погода в нашем городе</string>
+    <string name="hint_user_field">Введите лат</string>
+    <string name="hint_user_field2">Введите лот</string>
+    <string name="no_user_input">Введите текст</string>
+</resources>
